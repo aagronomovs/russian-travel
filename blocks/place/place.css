@@ -1,0 +1,9 @@
+.place {
+  display: grid;
+  grid-template-columns: 464px 484px;
+  grid-template-rows: 152px fit-content(460px);
+  gap: 28px 48px;
+  padding: 0;
+  margin-top: 80px;
+  width: 984px;
+}
