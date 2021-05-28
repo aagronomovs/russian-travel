@@ -1,5 +1,8 @@
 .header__logo {
     width: 176px;
     height: 52px;
-    margin: 28px 0 0 48px;
+    
+    /*position: absolute;
+    top: 28px;
+    left: 48px; */
 }
