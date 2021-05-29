@@ -1,4 +1,6 @@
 .lead__image {
-  width: 984px;
-  height: 615px;  
+  width: 100%;
+  min-height: 62.5vw;
+  box-sizing: border-box;
+  background-size: cover;
 }
