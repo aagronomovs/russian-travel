@@ -12,3 +12,7 @@
 **Технологии**
 
 Верстка выполнена на flex и grid layouts с использованием макета страницы в Figma. Отработано применение медиа-запросов.
+
+**Ссылка на проект**
+
+ https://aagronomovs.github.io/russian-travel/index.html
