@@ -1,6 +1,10 @@
 .lead__image {
   width: 100%;
-  min-height: 62.5vw;
+  /* min-height: 62.5vw; */
   box-sizing: border-box;
-  background-size: cover;
+  /* background-size: cover; */
+  object-fit: cover;
+  justify-self: center;
+  align-self: center;
+  
 }
