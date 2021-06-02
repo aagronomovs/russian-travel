@@ -19,7 +19,7 @@
     .photo-grid {
         max-width: 720px;
         gap: 14px;
-        margin: 88px 24px;
+       /*margin: 88px 24px; */
     }
 }
 
@@ -27,7 +27,7 @@
     .photo-grid {
         max-width: 288px;
         gap: 12px;
-        margin: 64px 16px;
+       /* margin: 64px 16px; */
     }
     
 }
