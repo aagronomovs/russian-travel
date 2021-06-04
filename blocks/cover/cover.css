@@ -2,25 +2,23 @@
   margin: 0 auto;
   padding: 92px 0 0;
   max-width: 1184px;
-  }
+}
 
-  @media screen and (max-width: 1024px) {
-    .cover {
-      max-width: 1024px;
-      }
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
   }
+}
 
-  
-  @media screen and (max-width: 768px) {
-    .cover {
-      max-width: 768px;
-    }
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
   }
+}
 
-  
-@media screen and (min-width: 320px) and (max-width: 425px) {
-    .cover {
-      max-width: 320px;
-      padding-top: 66px;
-    }
+@media screen and (max-width: 425px) {
+  .cover {
+    max-width: 320px;
+    padding-top: 66px;
   }
+}

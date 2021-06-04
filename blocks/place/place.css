@@ -8,8 +8,7 @@
   max-width: 984px;
 }
 
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 440px 456px;
     grid-template-rows: fit-content(152px) fit-content(440px);
@@ -17,8 +16,7 @@
   }
 }
 
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .place {
     max-width: 720px;
     grid-template-columns: 340px 352px;
@@ -27,8 +25,7 @@
   }
 }
 
-
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 760px) {
   .place {
     max-width: 320px;
     display: flex;
