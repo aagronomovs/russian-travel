@@ -15,18 +15,24 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .footer {
     max-width: 186px;
     min-height: 310px;
-    padding: 64px 0 24px 16px;
-    margin-left: 0;
+    padding: 64px 0 24px;
     display: block;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    margin-left: 0;
+    padding-left: 16px;
   }
 }

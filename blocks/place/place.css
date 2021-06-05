@@ -12,20 +12,20 @@
   .place {
     grid-template-columns: 440px 456px;
     grid-template-rows: fit-content(152px) fit-content(440px);
-    gap: 32px 48px;
+    column-gap: 32px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
     max-width: 720px;
     grid-template-columns: 340px 352px;
     grid-template-rows: fit-content(92px) fit-content(340px);
-    gap: 28px 48px;
+    column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 767px) {
   .place {
     max-width: 320px;
     display: flex;
